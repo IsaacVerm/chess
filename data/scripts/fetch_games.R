@@ -37,10 +37,10 @@ pgns <- games[["currentPageResults"]][["moves"]]
 
 # save
 
-mapply(FUN = function(id,pgn) write(pgn, file = file.path(base_path,"data","output","pgn", paste0(id,".pgn"))),
+mapply(FUN = function(id,pgn) write(pgn, file = file.path(base_path,"data","output","games","pgn", paste0(id,".pgn"))),
        id = games_id,
        pgn = pgns)
 
 ## json
 
-write(toJSON(games), file = file.path(base_path,"data","output","games.JSON"))
+write(toJSON(games), file = file.path(base_path,"data","output","games","json.JSON"))
