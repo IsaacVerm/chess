@@ -2,3 +2,4 @@
 *.RData
 *chesstempo_analysis.md
 *scheduling/*
+*data/output/automatic_puzzles
