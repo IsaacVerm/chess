@@ -1,3 +1,4 @@
 *.Rhistory
 *.RData
 *chesstempo_analysis.md
+*scheduling/*
